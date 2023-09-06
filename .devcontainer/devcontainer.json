@@ -2,5 +2,6 @@
 
 {
 	"name": "Docker Playground",
-	"postCreateCommand": "/bin/bash -i -c .devcontainer/startup_script.sh"
+	"postCreateCommand": "/bin/bash -i -c .devcontainer/startup_script.sh",
+	"forwardPorts": [8000, 9443]
 }
