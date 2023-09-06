@@ -1,5 +1,5 @@
-// For `devcontainer.json` format details , see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/docker-existing-dockerfile
+// For `devcontainer.json` format details , ref https://aka.ms/devcontainer.json. For config options, see the
+
 {
 	"name": "Docker Playground",
 	"postCreateCommand": "/bin/bash -i -c .devcontainer/startup_script.sh",
